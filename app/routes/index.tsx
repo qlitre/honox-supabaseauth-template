@@ -26,6 +26,14 @@ export default createRoute(async (c) => {
           </p>
         </div>
       )}
+      <hr />
+      <h1>Pages</h1>
+      <p>
+        <a href="/auth/super_secret">Authenticated Root</a>
+      </p>
+      <p>
+        <a href="/common/not_secret">Open to everyone</a>
+      </p>
     </div>
   )
 })
